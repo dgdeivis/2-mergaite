@@ -5,9 +5,16 @@ header{
     margin-left: calc((100% - 800px) / 2);
     margin-right: calc((100% - 800px) / 2);
 }
+header img {
+    height: 50px;
+}
 main{
     background-color: yellowgreen;
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
+    margin-right: calc((100% - 800px) / 2);
+}
+main img{
+    height: 250px;
 }
