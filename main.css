@@ -47,6 +47,7 @@ main{
     margin-right: calc((100% - 800px) / 2);
     margin-top: 20px;
 }
+
 div{
     display: inline-block;
     width: 38%;
@@ -58,16 +59,18 @@ div{
 h1{
 display: inline-block;
 margin: 0;
-font-size: 38px;
+font-size: 90px;
 color: #9f9f9f;
 }
 
 p{
-margin: 0;
-font-size: 22px;
+ display: inline-block;
+ margin: 0;
+ font-size: 22px;
+ color: #bdbdbd;
 }
 
 main img{
-    height: 200px;
+    width: 46%;
+    float: left;
     margin-left: 8%;
-    float: right;
