@@ -1,81 +1,77 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #f8f8f8;
-}
-
-header {
+  }
+  
+  header {
     display: inline-block;
     width: 800px;
-    float: left;
     margin-left: calc((100% - 800px) / 2);
-    margin-right: calc((100% - 800px) / 2); 
-    background-color: #f8f8f8;
-    
-}
-
-header > img {
+    margin-right: calc((100% - 800px) / 2);
+  }
+  
+  header > img {
     display: inline-block;
-    height: 70px;
+    height: 50px;
     float: left;
-}
-header > nav {
+  }
+  
+  nav {
     display: inline-block;
     float: right;
-    margin-right: 15px;
-    margin-top: 15px;
-    
-}
-nav > a {
+    margin-top: 9px;
+  }
+  
+  a {
     display: inline-block;
     float: left;
+    color: #9f9f9f;
     font-size: 16px;
     line-height: 20px;
-    padding-inline-end: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
     text-decoration: none;
-    color: rgb(95, 93, 93);
-    border: 5px solid transparent;
-    border-radius: 15px;
-    border-width: 3px;
-}
-a:last-of-type {  
-    border-color: rgb(95, 93, 93);
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 3px solid transparent;
+    border-radius: 16px;
+  }
+  a:last-of-type {
     margin-left: 15px;
-}
-
-main {
+    border-color: #9f9f9f;
+  }
+  
+  main {
     display: inline-block;
     width: 800px;
-    float: left;
     margin-left: calc((100% - 800px) / 2);
-    margin-right: calc((100% - 800px) / 2); 
+    margin-right: calc((100% - 800px) / 2);
     margin-top: 20px;
-    background-color: #f8f8f8;
-}
-div {
+  }
+  
+  div {
     display: inline-block;
     width: 38%;
     float: left;
     margin-left: 4%;
-    margin-top: 45px;
-    color: rgb(95, 93, 93);
-   
-}
-h1 {
-    font-size: 90px;
-    margin: 0%;
-}
-p {
+    margin-top: 40px;
+  }
+  
+  h1 {
     display: inline-block;
+    margin: 0;
+    font-size: 50px;
+    color: #9f9f9f;
+  }
+  
+  p {
+    display: inline-block;
+    margin: 0;
     font-size: 22px;
-    margin-block: auto;
-
-}
-main > img{
-width: 46%;
-margin-left: 8%;
-}
-span {
-    display: block;
-}
+    color: #bdbdbd;
+  }
+  
+  main > img {
+    width: 46%;
+    float: left;
+    margin-left: 8%;
+  }
